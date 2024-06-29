@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>booking</title>
+<link rel="stylesheet" href="css/BookingFormStyle.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <div class="title">Booking Form</div>
+    <div class="content">
+      <form action="/booking" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" name= "fullname" placeholder="Enter your full name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Booking Date</span>
+            <input type="date" name= "bookDate" placeholder="Enter booking date" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Booking Time</span>
+            <input type="time" name= "bookTime" placeholder="Enter booking time" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Start Destination </span>
+            <input type="text" name= "fromDestination" placeholder="Enter start destination" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Final Destination</span>
+            <input type="text" name= "toDestination" placeholder="Enter end destination" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Total Passengers</span>
+            <select type="text" name= "passengerCount" placeholder="Select passengers count" required>
+          <option>Adult</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Message</span>
+            <input type="textarea" name= "message" placeholder="Write your message>
+          </div> 
+        </div>
+        <div class="button">
+          <input type="submit" value="Book Now">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
