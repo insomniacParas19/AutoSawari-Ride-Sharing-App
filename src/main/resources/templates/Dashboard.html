@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
+  
     <meta charset="ISO-8859-1" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
@@ -18,7 +19,7 @@
             <li><a href="#" class="nav_link">About</a></li>
             <li><a href="#" class="nav_link">Service</a></li>
             <li><a href="destination" class="nav_link">Destinations</a></li>
-       <!-- <li><a href="/booking" class="nav_link">Bookings</a></li> -->
+      		<li><a href="/booking" class="nav_link">Bookings</a></li> 
             <li><a href="#" class="nav_link">Contact</a></li>
           </ul>
        <!--     <img src="images/bars.svg" alt="timesicon" id="menu_toggle" /> --> 
@@ -27,8 +28,8 @@
           <div class="sub-menu-wrap" id="subMenu">
           <div class="sub-menu">
           <div class="user-info">
-          <img src="images/user.jpg">
-          <h3>User:[[${user}]]</h3>
+          <img src="images/user.png">
+          <h2>User</h2>
           </div>
           <hr>
           <a href="#" class="sub-menu-link">
@@ -46,7 +47,7 @@
           <p>Help & Support </p>
           <span>></span>
           </a>
-          <a href="#" class="sub-menu-link">
+          <a href="login" class="sub-menu-link">
           <img src="images/logout.png">
           <p>Logout</p>
           <span>></span>
@@ -66,7 +67,7 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis, architecto? Consectetur enim obcaecati velit quibusdam iure, perspiciatis accusantium, voluptatibus possimus cum voluptates dolorum optio ab vitae. Praesentium voluptas quia voluptates at aperiam aliquid vitae autem!</p>
             <div class="buttons">
               <button class="btn">Book AutoTaxi</button>
-              <button class="btn"><a href="/login">Login/Register</a></button>
+        <!--        <button class="btn"><a href="/login">Login/Register</a></button>	-->
             </div>
           </div>
           <div class="column">

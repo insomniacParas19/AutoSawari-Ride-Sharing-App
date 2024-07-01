@@ -8,11 +8,12 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name="destination_tbl")
-public class Destination {
+@Table(name="vehicleType_tbl")
+public class VehicleType {
 	@Id
 	@GeneratedValue
-	private Long id;
-	private String distName;
-	
+	private int id;
+	private String modelType;
+	private String fuelSource;
+
 }

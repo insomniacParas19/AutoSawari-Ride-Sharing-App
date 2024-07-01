@@ -32,7 +32,7 @@ public class UserController {
 		if(u!=null) {
 			
 		model.addAttribute("fullname", u.getFullname());
-		return "index";
+		return "Dashboard";
 		}
 		
 		model.addAttribute("message", "user not registered !!");
